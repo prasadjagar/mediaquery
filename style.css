@@ -1,0 +1,39 @@
+body {
+    background: yellow;
+}
+.banner {
+    background: blanchedalmond;
+}
+h1 {
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+    text-transform: capitalize;
+}
+@media  screen and (min-width:576px) {
+    body {
+        background: blue;
+    }
+    .banner {
+        background: chocolate;
+    }
+    h1 {
+        font-size: 60px;
+        text-decoration: none;
+        text-align:center;
+    }
+}
+@media  screen and (min-width:768px) {
+    body {
+        background: green;
+    }
+    .banner {
+        background: chartreuse;
+    }
+    h1 {
+        font-size: 60px;
+        text-decoration: none;
+        text-align:center;
+    }
+}
+    
